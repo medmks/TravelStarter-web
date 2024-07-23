@@ -1,3 +1,4 @@
 export const style = {
-padding:"p-4"
+padding:"p-4",
+SubTitle:"text-xl text-sky-500 font-medium   ",
 }
