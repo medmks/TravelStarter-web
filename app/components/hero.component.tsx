@@ -8,7 +8,7 @@ const Hero = () => {
 
                                       <div className="h-full  flex flex-col  justify-center mt-40 items-center w-2/3  gap-10">
                                           <h1 className="font-outfit text-6xl text-white whitespace-pre-line text-center">Begin your dream journey with our expert guidance and support</h1>
-                                          <div className="w-fit bg-[#00000042]  border border-gray-300 p-3  rounded-full flex justify-center ">
+                                          <div className="w-fit bg-[#00000042]  border border-gray-400 p-3 shadow-lg  rounded-full flex justify-center ">
                                                 <form action="" className="w-full h- flex flex-row  ">
                                                     <select className="bg-transparent text-white font-outfitsubtext outline-none w-44 "><option>seach destination</option></select>
                                                     <div className="border-r border-gray-300 opacity-50 mx-3 m-2"/>
