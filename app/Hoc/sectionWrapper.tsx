@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+import { staggerContainer } from "~/utilities/motion";
 import { style } from "~/utilities/style";
 
 type TSectionWrapperProps = {
@@ -9,9 +11,14 @@ type TSectionWrapperProps = {
 const SectionWrapper = ({ Children,id }: TSectionWrapperProps) => 
           function HOC(){
                     return (
-                              <section id={id} className={`mx-auto relative z-0  ${style.padding}`}>
+                              <motion.section
+                              variants={staggerContainer()}
+                              initial="hidden"
+                              whileInView="show"
+                              viewport={{once:true,amount:0.25}}
+                              id={id} className={`mx-auto relative z-0  ${style.padding}`}>
                                         <Children/>
-                              </section>
+                              </motion.section>
                     )
           }
 

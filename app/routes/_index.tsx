@@ -12,7 +12,7 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="relative z-1">
+    <div className="relative z-1 scroll-smooth">
       <Navbar/>
       <HeroComponent/>
       <AboutComponent/>
