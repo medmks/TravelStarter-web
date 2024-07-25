@@ -11,6 +11,9 @@ export default {
       },
       backgroundImage: {
         "hero-pattern": "url('/app/assets/images/heroImageSection.jpg')",
+        "hero-pattern2": "url('/app/assets/images/image1.jpg')",
+        "hero-pattern3": "url('/app/assets/images/img2.jpg')",
+        "hero-pattern4": "url('/app/assets/images/img3.jpg')",
       },
     },
   },
