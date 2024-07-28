@@ -6,11 +6,11 @@ import { style } from '~/utilities/style'
 
 const About = () => {
   return (
-    <section className='p-14 relative w-full'>
+    <section className='relativem mt-5 '>
          
           <motion.h2 variants={fadeIn("left", "tween", 0.5, 0.5)} className={`${style.SubTitle}`}>ABOUT US </motion.h2>
     
-          <div className='mt-5 flex flex-row   '>
+          <div className='flex flex-row mt-5'>
                   <div className='w-1/2'>
                        <motion.p variants={fadeIn("right", "tween", 0.5, 0.5)} className='text-black font-outfitsubtext font-light text-4xl leading-tight  '>
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit,
