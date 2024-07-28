@@ -16,7 +16,7 @@ const SectionWrapper = ({ Children,id }: TSectionWrapperProps) =>
                               initial="hidden"
                               whileInView="show"
                               viewport={{once:true,amount:0.25}}
-                              id={id} className={` mx-auto relative z-0 ${style.padding}`}>
+                              id={id} className={` max-w-full mx-auto relative z-0 ${style.padding}`}>
                                         <Children/>
                               </motion.section>
                     )
