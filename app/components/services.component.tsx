@@ -4,7 +4,7 @@ import { style } from "~/utilities/style"
 
 const Services = () => {
   return (
-    <section className=" relative p-14  ">
+    <section className=" relative ">
           <h2 className={`${style.SubTitle}`}>Our Services</h2>
 
           <div className="flex flex-col gap-3 mt-6">
@@ -12,17 +12,26 @@ const Services = () => {
                     <p className="text-gray-500 font-outfitsubtext font-normal text-xl w-[50%]  leading-tight">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure rem nisi error magnam magni accusantium .</p>
           </div>
 
-          <div className=" w-full h-[80vh] mt-6 flex flex-row gap-5">
+          <div className=" w-full h-[80vh] mt-12 flex flex-row gap-5">
                               <div className="w-full h-full bg-hero-pattern3 rounded-2xl object-cover  bg-no-repeat bg-center size-auto bg-cover flex relative">
-
+                                <div className="flex flex-col gap-2 p-4 pl-7 justify-end items-start">
+                                  <h3 className="text-white font-outfit font-normal text-4xl leading-tight">Comprhensive Travel support</h3>
+                                  <p className="text-white font-outfitsubtext font-normal text-xl   leading-tight">Lorem ipsum dolor, sit amet .</p>
+                                </div>
                               </div>
                               <div className="w-full h-full flex flex-col gap-5 ">
                                         <div className="w-full h-full bg-hero-pattern2 rounded-2xl object-cover  bg-no-repeat bg-center size-auto bg-cover flex relative">
-                                                  {/* <img src={image1} alt="" className="w-full  "/>      */}
-                                        </div>
+                                          <div className="flex flex-col gap-2 p-4 justify-end items-start pl-7">
+                                            <h3 className="text-white font-outfit font-normal text-4xl leading-tight">Comprhensive Travel support</h3>
+                                            <p className="text-white font-outfitsubtext font-normal text-xl   leading-tight">Lorem ipsum dolor, sit amet .</p>
+                                          </div>
+                                          </div>
 
                                         <div className="w-full h-full bg-hero-pattern4 rounded-2xl object-cover  bg-no-repeat bg-bottom size-auto bg-cover flex relative">
-
+                                          <div className="flex flex-col gap-2 p-4 justify-end items-start pl-7">
+                                            <h3 className="text-white font-outfit font-normal text-4xl leading-tight">Comprhensive Travel support</h3>
+                                            <p className="text-white font-outfitsubtext font-normal text-xl   leading-tight">Lorem ipsum dolor, sit amet .</p>
+                                          </div>
                                         </div>
 
 
