@@ -1,8 +1,8 @@
 
 const Navbar = () => {
   return (
-    <nav className="absolute flex justify-center items-end px-20 z-50 w-full  h-[100px]  ">
-          <div className=" flex  ">
+    <nav className="absolute flex flex-row justify-start items-end px-10 sm:px-20 z-50 w-full  h-[100px]  ">
+          <div className="flex sm:justify-start  ">
             <h1 className="font-outfit font-normal text-2xl sm:text-3xl  text-white">Travelellah</h1>
           </div>
 
@@ -16,8 +16,8 @@ const Navbar = () => {
             </ul>
           </div>
 
-          <div className="flex justify-end mt-4 pr-3 right-5 bottom-1/3 lg:hidden">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="white" className="size-10">
+          <div className="flex justify-end items-end w-full lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="white" className="w-8 h-8">
             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg>
 
