@@ -18,13 +18,13 @@ const Hero = () => {
 
 
                                           
-                                          <div className=" lg:w-fit w-full bg-[#00000042]  border-gray-400 p-1  shadow-lg    lg:rounded-full rounded-lg  flex lg:flex-wrap justify-center ">
-                                                <form action="" className=" w-full p-5 lg:p-2 flex flex-col lg:flex-row  flex-wrap justify-center gap-3  ">
-                                                    <select className="bg-transparent text-xl text-white  font-outfitsubtext outline-none w-[90%] lg:w-44  "><option>seach destination</option></select>
+                                          <div className=" lg:w-fit w-full bg-[#00000042]  border-gray-400 p-1  shadow-lg    lg:rounded-full  rounded-xl  flex  justify-center ">
+                                                <form action="" className=" w-full p-5 lg:p-2 flex flex-col lg:flex-row   justify-center gap-3  ">
+                                                    <select className="bg-transparent text-xl text-white  font-outfitsubtext outline-none w-full lg:w-44  "><option>seach destination</option></select>
                                                     <div className="lg:border-r border-b border-gray-300 opacity-50 mx-3 m-2"/>
-                                                    <select className="bg-transparent text-white text-xl font-outfitsubtext outline-none w-[90%] lg:w-44  "><option>Date destination</option></select>
+                                                    <select className="bg-transparent text-white text-xl font-outfitsubtext outline-none w-full lg:w-44  "><option>Date destination</option></select>
                                                     <div className="lg:border-r border-b border-gray-300  opacity-50 mx-3 m-2"/>
-                                                    <select className="bg-transparent text-xl text-white font-outfitsubtext outline-none w-[90%] lg:w-44 "><option>Trip type</option></select>
+                                                    <select className="bg-transparent text-xl text-white font-outfitsubtext outline-none w-full lg:w-44 "><option>Trip type</option></select>
                                                     <div className="lg:border-r border-b border-gray-300 opacity-50  mx-3 m-2"/>
                                                     <button className="bg-white text-black font-outfitsubtext hover:bg-gray-200 px-10 py-3 text-xl rounded-full font-medium">Explore</button>
                                                 </form> 
