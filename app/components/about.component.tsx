@@ -10,8 +10,8 @@ const About = () => {
          
           <motion.h2 variants={fadeIn("left", "tween", 0.5, 0.5)} className={`${style.SubTitle}`}>ABOUT US </motion.h2>
     
-          <div className='flex flex-row mt-5'>
-                  <div className='w-1/2'>
+          <div className='flex flex-col sm:flex-row mt-5 gap-10'>
+                  <div className='sm:w-1/2 w-full'>
                        <motion.p variants={fadeIn("right", "tween", 0.5, 0.5)} className='text-black font-outfitsubtext font-light text-4xl leading-tight  '>
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -20,7 +20,7 @@ const About = () => {
                   </div>
                  
 
-                    <motion.div variants={fadeIn("left", "tween", 0.5, 0.5)} className='flex flex-col justify-end items-center w-1/2 '>
+                    <motion.div variants={fadeIn("left", "tween", 0.5, 0.5)} className='flex flex-col sm:justify-end items-center sm:w-1/2 w-full '>
                       <div className='flex flex-row '>
 
                         <div className='flex flex-col justify-center items-center gap-1'>
