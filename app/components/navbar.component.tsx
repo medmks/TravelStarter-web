@@ -6,7 +6,7 @@ const Navbar = () => {
             <h1 className="font-outfit font-normal text-2xl sm:text-3xl  text-white">Travelellah</h1>
           </div>
 
-          <div className=" hidden sm:flex flex-row justify-end w-full ">
+          <div className=" hidden lg:flex flex-row justify-end w-full ">
             <ul className=" flex flex-row list-none gap-9 text-white font-outfitsubtext">
               <li className="underline underline-offset-4">Home</li>
               <li><a href="/">About</a></li>
