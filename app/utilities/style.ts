@@ -3,7 +3,7 @@ export const style = {
           // Padding:" px-5 py-2 ",
           HeroPadding:" px-2 sm:px-5 py-2 sm:py-5 ",
           componentPadding:"p-14",
-          HeroHeadTitle:"font-outfit text-4xl sm:text-6xl text-white whitespace-pre-line text-center",
+          HeroHeadTitle:"font-outfit text-3xl lg:text-6xl md:text-4xl text-white whitespace-pre-line text-center",
           SubTitle:"text-xl text-sky-500 font-medium ",
 
 }
