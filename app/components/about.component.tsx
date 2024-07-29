@@ -20,20 +20,20 @@ const About = () => {
                   </div>
                  
 
-                    <motion.div variants={fadeIn("left", "tween", 0.5, 0.5)} className='flex flex-col sm:justify-end items-center sm:w-1/2 w-full '>
+                    <motion.div variants={fadeIn("left", "tween", 0.5, 0.5)} className='flex flex-col justify-end items-center sm:w-1/2 w-full '>
                       <div className='flex flex-row '>
 
-                        <div className='flex flex-col justify-center items-center gap-1'>
+                        <div className='flex flex-col justify-center items-center gap-1 text-center'>
                           <h3 className='text-black font-outfitsubtext font-normal text-4xl leading-tight '>78+</h3>
                           <span className='text-gray-500 font-normal text-2xl'>Happy Clients</span>
                         </div>
                         <div className="border-r border-gray-400  opacity-50 mx-3 m-5"/>
-                        <div className='flex flex-col justify-center items-center gap-1'>
+                        <div className='flex flex-col justify-center items-center gap-1 text-center'>
                           <h3 className='text-black font-outfitsubtext font-normal text-4xl leading-tight '>25+</h3>
                           <span className='text-gray-500 font-normal text-2xl'>Top Hotels</span>
                         </div>
                         <div className="border-r border-gray-400  opacity-50 mx-3 m-5"/>
-                        <div className='flex flex-col justify-center items-center gap-1'>
+                        <div className='flex flex-col justify-center items-center gap-1 text-center'>
                           <h3 className='text-black font-outfitsubtext font-normal text-4xl leading-tight '>32+</h3>
                           <span className='text-gray-500 font-normal text-2xl'>Experienced Guide</span>
                         </div>
