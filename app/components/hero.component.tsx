@@ -18,13 +18,13 @@ const Hero = () => {
 
 
                                           
-                                          <div className="sm:w-fit w-full bg-[#00000042]  border-gray-400 p-2 pl-3 shadow-lg   sm:rounded-full rounded-lg  flex justify-center ">
+                                          <div className="sm:w-fit w-full bg-[#00000042]  border-gray-400 p-1  shadow-lg   sm:rounded-full rounded-lg  flex justify-center ">
                                                 <form action="" className="w-full p-5 sm:p-2 flex flex-col sm:flex-row justify-center gap-3  ">
-                                                    <select className="bg-transparent text-xl text-white  font-outfitsubtext outline-none w-44 "><option>seach destination</option></select>
+                                                    <select className="bg-transparent text-xl text-white  font-outfitsubtext outline-none w-[90%] sm:w-44  "><option>seach destination</option></select>
                                                     <div className="sm:border-r border-b border-gray-300 opacity-50 mx-3 m-2"/>
-                                                    <select className="bg-transparent text-white text-xl font-outfitsubtext outline-none w-44  "><option>Date destination</option></select>
+                                                    <select className="bg-transparent text-white text-xl font-outfitsubtext outline-none w-[90%] sm:w-44  "><option>Date destination</option></select>
                                                     <div className="sm:border-r border-b border-gray-300  opacity-50 mx-3 m-2"/>
-                                                    <select className="bg-transparent text-xl text-white font-outfitsubtext outline-none w-44 "><option>Trip type</option></select>
+                                                    <select className="bg-transparent text-xl text-white font-outfitsubtext outline-none w-[90%] sm:w-44 "><option>Trip type</option></select>
                                                     <div className="sm:border-r border-b border-gray-300 opacity-50  mx-3 m-2"/>
                                                     <button className="bg-white text-black font-outfitsubtext hover:bg-gray-200 px-10 py-3 text-xl rounded-full font-medium">Explore</button>
                                                 </form> 
