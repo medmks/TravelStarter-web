@@ -14,18 +14,18 @@ const Hero = () => {
                                   <div className="bg-[#00000042] rounded-2xl flex w-full h-full flex-col justify-center items-center ">
                                       <div className="h-full flex flex-col justify-center mt-40 items-center w-full sm:w-2/3 px-10 gap-10">
                                           <motion.h1 variants={textVariant(0.35)}
-                                            className={`${style.HeroHeadTitle} text-start sm:text-center`}>Begin your dream journey with our expert guidance and support</motion.h1>
+                                            className={`${style.HeroHeadTitle} text-start lg:text-center`}>Begin your dream journey with our expert guidance and support</motion.h1>
 
 
                                           
-                                          <div className="sm:w-fit w-full bg-[#00000042]  border-gray-400 p-1  shadow-lg   sm:rounded-full rounded-lg  flex justify-center ">
-                                                <form action="" className="w-full p-5 sm:p-2 flex flex-col sm:flex-row justify-center gap-3  ">
-                                                    <select className="bg-transparent text-xl text-white  font-outfitsubtext outline-none w-[90%] sm:w-44  "><option>seach destination</option></select>
-                                                    <div className="sm:border-r border-b border-gray-300 opacity-50 mx-3 m-2"/>
-                                                    <select className="bg-transparent text-white text-xl font-outfitsubtext outline-none w-[90%] sm:w-44  "><option>Date destination</option></select>
-                                                    <div className="sm:border-r border-b border-gray-300  opacity-50 mx-3 m-2"/>
-                                                    <select className="bg-transparent text-xl text-white font-outfitsubtext outline-none w-[90%] sm:w-44 "><option>Trip type</option></select>
-                                                    <div className="sm:border-r border-b border-gray-300 opacity-50  mx-3 m-2"/>
+                                          <div className=" lg:w-fit w-full bg-[#00000042]  border-gray-400 p-1  shadow-lg    lg:rounded-full rounded-lg  flex lg:flex-wrap justify-center ">
+                                                <form action="" className=" w-full p-5 lg:p-2 flex flex-col lg:flex-row  flex-wrap justify-center gap-3  ">
+                                                    <select className="bg-transparent text-xl text-white  font-outfitsubtext outline-none w-[90%] lg:w-44  "><option>seach destination</option></select>
+                                                    <div className="lg:border-r border-b border-gray-300 opacity-50 mx-3 m-2"/>
+                                                    <select className="bg-transparent text-white text-xl font-outfitsubtext outline-none w-[90%] lg:w-44  "><option>Date destination</option></select>
+                                                    <div className="lg:border-r border-b border-gray-300  opacity-50 mx-3 m-2"/>
+                                                    <select className="bg-transparent text-xl text-white font-outfitsubtext outline-none w-[90%] lg:w-44 "><option>Trip type</option></select>
+                                                    <div className="lg:border-r border-b border-gray-300 opacity-50  mx-3 m-2"/>
                                                     <button className="bg-white text-black font-outfitsubtext hover:bg-gray-200 px-10 py-3 text-xl rounded-full font-medium">Explore</button>
                                                 </form> 
                                           </div>
@@ -33,8 +33,8 @@ const Hero = () => {
                                       {/* <motion.h3 variants={fadeIn("right", "tween", 1, 1)} className="text-white font-outfitsubtext font-light w-full text-xl flex sm:hidden  px-10 text-start">Book your Travel and transportation service with us and enjoy a hasse-free and memoable journey </motion.h3> */}
 
 
-                                      <div className=" w-full flex flex-row items-end justify-center  py-8 sm:p-14 ">
-                                        <div className="hidden sm:flex flex-col gap-5 sm:w-1/2 w-full ">
+                                      <div className=" w-full flex flex-row items-end justify-center  py-8 lg:p-14 ">
+                                        <div className="hidden lg:flex flex-col gap-5 lg:w-1/2 w-full ">
                                           <motion.button variants={fadeIn("right", "tween", 0.40, 0.40)} className="bg-transparent text-white font-outfitsubtext border w-fit px-5 py-2 rounded-full font-light flex flex-row items-center gap-2">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-8">
                                               <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
@@ -44,7 +44,7 @@ const Hero = () => {
                                           </motion.button>
                                           <motion.h3 variants={fadeIn("right", "tween", 1, 1)} className="text-white hidden sm:flex font-outfitsubtext text-2xl  line-clamp-2">Book your Travel and transportation service with us and enjoy a hasse-free and memoable journey </motion.h3>
                                         </div>
-                                        <div className="flex justify-end items-end w-1/2">
+                                        <div className="flex justify-center lg:justify-end  lg:items-end w-1/2">
                                         <motion.button variants={fadeIn("left", "tween", 0.5, 0.5)} className="bg-transparent text-white font-outfitsubtext border w-fit px-5 py-2 rounded-full font-light flex flex-row items-center gap-2">
                                             Explore more
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-8">
