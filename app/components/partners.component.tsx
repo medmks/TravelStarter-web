@@ -3,8 +3,8 @@ import SectionWrapper from "~/Hoc";
 
 const Partners = () => {
   return (
-    <section className="w-full z-10 ">
-      <div className="flex flex-row justify-center items-center gap-20 bg-gradient-to-r from-transparent to-white">
+    <section className=" z-10 ">
+      <div className="flex flex-row justify-between items-center bg-gradient-to-r from-transparent to-white">
         {Parteners.map((partner) => {
           return (
             <div
@@ -12,7 +12,7 @@ const Partners = () => {
               className="flex justify-center items-center"
             >
               <img
-                className="max-w-[200px] h-auto object-contain"
+                className="md:max-w-[200px] max-w-[100px] h-auto object-contain"
                 src={partner.image}
                 alt={partner.name}
               />
