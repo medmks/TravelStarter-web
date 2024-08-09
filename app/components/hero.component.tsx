@@ -10,7 +10,7 @@ const Hero = () => {
       viewport={{ once: true, amount: 0.25 }}
       className={`ralative w-full sm:h-[98vh] h-fit ${style.HeroPadding} `}
     >
-      <div className=" bg-hero-pattern w-full h-full  rounded-2xl bg-no-repeat bg-center size-auto bg-cover flex relative  ">
+      <div className=" bg-hero-pattern5 w-full h-full  rounded-2xl bg-no-repeat bg-center size-auto bg-cover flex relative  ">
         <div className="bg-[#00000042] rounded-2xl flex w-full h-full flex-col justify-center items-center ">
           <div className="h-full flex flex-col justify-center mt-40 items-center w-full sm:w-2/3 px-10 gap-10">
             <motion.h1
