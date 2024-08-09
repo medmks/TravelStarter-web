@@ -17,7 +17,7 @@ const Parteners = [
     name: "Opendoor",
     image: Opendoor,
   },
-  { name: "Batman", image: Batman },
+//   { name: "Batman", image: Batman },
 ];
 
 export default Parteners;

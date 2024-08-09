@@ -34,7 +34,7 @@ const Services = () => {
               <h3 className="text-white font-outfit font-normal text-4xl leading-tight">
                 Comprhensive Travel support
               </h3>
-              <p className="text-white font-outfitsubtext font-normal text-xl   leading-tight">
+              <p className="text-white font-outfitsubtext font-normal text-xl leading-tight">
                 Lorem ipsum dolor, sit amet .
               </p>
             </div>
