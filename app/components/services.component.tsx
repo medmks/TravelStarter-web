@@ -5,10 +5,10 @@ import { style } from "~/utilities/style";
 const Services = () => {
   return (
     <section className=" relative ">
-      <h2 className={`${style.SubTitle}`}>Our Services</h2>
+      <h2 className={`${style.SubTitle}`}><span className={`${style.SubTitle}`}>{"//"}</span>OUR SERVICES</h2>
 
       <div className="flex flex-col gap-3 mt-6">
-        <h1 className="text-black font-outfit font-light text-5xl leading-tight">
+        <h1 className="text-black font-outfit font-normal text-5xl leading-tight">
           Explore endless options with our services{" "}
         </h1>
         <p className="text-gray-500 font-outfitsubtext font-normal text-xl w-full sm:w-[50%]  leading-tight">

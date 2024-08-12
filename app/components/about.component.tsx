@@ -10,6 +10,7 @@ const About = () => {
         variants={fadeIn("left", "tween", 0.5, 0.5)}
         className={`${style.SubTitle}`}
       >
+        <span className={`${style.SubTitle}`}>{"//"}</span>
         ABOUT US{" "}
       </motion.h2>
 
