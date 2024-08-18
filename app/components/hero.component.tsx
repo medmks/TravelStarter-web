@@ -10,7 +10,7 @@ const Hero = () => {
       viewport={{ once: true, amount: 0.25 }}
       className={`ralative w-full sm:h-[98vh] h-fit ${style.HeroPadding} `}
     >
-      <div className=" bg-hero-pattern5 w-full h-full  rounded-2xl bg-no-repeat bg-center size-auto bg-cover flex relative  ">
+      <div className=" bg-hero-pattern5 w-full  h-full  rounded-2xl bg-no-repeat bg-center size-auto bg-cover flex relative  ">
         <div className="bg-[#00000042] rounded-2xl flex w-full h-full flex-col justify-center items-center ">
           <div className="h-full flex flex-col justify-center mt-40 items-center w-full sm:w-2/3 px-10 gap-10">
             <motion.h1
@@ -43,8 +43,6 @@ const Hero = () => {
               </form>
             </div>
           </div>
-          {/* <motion.h3 variants={fadeIn("right", "tween", 1, 1)} className="text-white font-outfitsubtext font-light w-full text-xl flex sm:hidden  px-10 text-start">Book your Travel and transportation service with us and enjoy a hasse-free and memoable journey </motion.h3> */}
-
           <div className=" w-full flex flex-row items-end justify-center  py-8 lg:p-14 ">
             <div className="hidden lg:flex flex-col gap-5 lg:w-1/2 w-full ">
               <motion.button
@@ -77,7 +75,7 @@ const Hero = () => {
                 className="text-white hidden sm:flex font-outfitsubtext text-2xl  line-clamp-2"
               >
                 Book your Travel and transportation service with us and enjoy a
-                hasse-free and memoable journey{" "}
+                hasse-free and memorable journey{" "}
               </motion.h3>
             </div>
             <div className="flex justify-center lg:justify-end  lg:items-end w-1/2">

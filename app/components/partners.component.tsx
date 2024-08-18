@@ -1,4 +1,4 @@
-import {Parteners} from "~/constants";
+import { Parteners } from "~/constants";
 import SectionWrapper from "~/Hoc";
 
 const Partners = () => {
