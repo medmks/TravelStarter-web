@@ -5,12 +5,12 @@ import { style } from "~/utilities/style";
 
 const About = () => {
   return (
-    <section className="relativem mt-5 ">
+    <section className="relative mt-5 ">
       <motion.h2
         variants={fadeIn("left", "tween", 0.5, 0.5)}
         className={`${style.SubTitle}`}
       >
-        <span className={`${style.SubTitle}`}>{"//"}</span>
+        <span className={`${style.SubTitle} mr-2`}>{"//"}</span>
         ABOUT US{" "}
       </motion.h2>
 

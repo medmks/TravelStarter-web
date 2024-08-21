@@ -10,5 +10,16 @@ import firstImage from "./images/FirstImage.jpg";
 import secondImage from "./images/secondImage.jpg";
 import thirdImage from "./images/thirdimage.jpg";
 
-
-export { image1, img2, img3, Batman, traveloka, booking, airbnb, Opendoor,firstImage, secondImage, thirdImage  };
+export {
+  image1,
+  img2,
+  img3,
+  Batman,
+  traveloka,
+  booking,
+  airbnb,
+  Opendoor,
+  firstImage,
+  secondImage,
+  thirdImage,
+};

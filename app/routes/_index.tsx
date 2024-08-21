@@ -1,5 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
 import AboutComponent from "~/components/about.component";
+import FAQsComponent from "~/components/FAQs.component";
 import Hero from "~/components/hero.component";
 import Navbar from "~/components/navbar.component";
 import PackageComponent from "~/components/package.component";
@@ -21,7 +22,8 @@ export default function Index() {
       <AboutComponent />
       <ServicesComponent />
       <PartnersComponent />
-      <PackageComponent />
+      <FAQsComponent />
+      {/* <PackageComponent /> */}
     </div>
   );
 }
