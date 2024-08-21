@@ -1,14 +1,17 @@
+import { useNavigate } from "@remix-run/react";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer, textVariant } from "~/utilities/motion";
 import { style } from "~/utilities/style";
+
 const Hero = () => {
+  const navigate = useNavigate();
   return (
     <motion.section
       variants={staggerContainer()}
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
-      className={`ralative w-full sm:h-[98vh] h-fit ${style.HeroPadding} `}
+      className={`ralative max-w-full w-full sm:h-[98vh] h-fit ${style.HeroPadding} `}
     >
       <div className=" bg-hero-pattern5 w-full  h-full  rounded-2xl bg-no-repeat bg-center size-auto bg-cover flex relative  ">
         <div className="bg-[#00000042] rounded-2xl flex w-full h-full flex-col justify-center items-center ">
@@ -80,6 +83,7 @@ const Hero = () => {
             </div>
             <div className="flex justify-center lg:justify-end  lg:items-end w-1/2">
               <motion.button
+                onClick={() => navigate("#services")}
                 variants={fadeIn("left", "tween", 0.5, 0.5)}
                 className="bg-transparent text-white font-outfitsubtext border w-fit px-5 py-2 rounded-full font-light flex flex-row items-center gap-2"
               >

@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <section className=" relative ">
       <h2 className={`${style.SubTitle}`}>
-        <span className={`${style.SubTitle}`}>{"//"}</span>OUR SERVICES
+        <span className={`${style.SubTitle} mr-2`}>{"//"}</span>OUR SERVICES
       </h2>
 
       <div className="flex flex-col gap-3 mt-6">
@@ -18,7 +18,6 @@ const Services = () => {
           nisi error magnam magni accusantium .
         </p>
       </div>
-
       <div className=" w-full h-[80vh] mt-12 flex flex-col sm:flex-row  gap-5">
         <div className="w-full h-full bg-service-pattern rounded-2xl object-cover  bg-no-repeat bg-center size-auto bg-cover flex relative">
           <div className="flex flex-col gap-2 p-4 pl-7 justify-end items-start">

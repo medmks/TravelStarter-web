@@ -21,7 +21,7 @@ export default function Index() {
       <Hero />
       <AboutComponent />
       <ServicesComponent />
-      <PartnersComponent />
+      {/* <PartnersComponent /> */}
       <FAQsComponent />
       {/* <PackageComponent /> */}
     </div>

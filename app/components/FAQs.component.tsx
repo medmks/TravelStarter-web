@@ -10,7 +10,7 @@ const FAQs = () => {
         <div className="md:w-1/2 flex flex-col gap-6 mt-5">
           <div className="">
             <h2 className={`${style.SubTitle}`}>
-              <span className={`${style.SubTitle}`}>{"//"}</span>FAQs
+              <span className={`${style.SubTitle} mr-2`}>{"//"}</span>FAQs
             </h2>
           </div>
 
