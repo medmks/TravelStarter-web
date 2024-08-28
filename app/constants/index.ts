@@ -51,4 +51,33 @@ const Packages = [
   },
 ];
 
-export { Parteners, Packages };
+
+const Questions = [
+  {
+    question: "What is the cancellation policy?",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, neque.",
+  },
+  {
+    question: "Is travel insurance included?",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, neque.",
+  },
+  {
+    question: "What is the best way to pay?",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, neque.",
+  },
+  {
+    question: "Can I customize my trip?",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, neque.",
+  },
+  {
+    question: "What is the duration of the trip?",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, neque.",
+  },
+];
+
+export { Parteners, Packages ,Questions};
