@@ -25,6 +25,22 @@ const Parteners = [
     name: "Opendoor",
     image: Opendoor,
   },
+  {
+    name: "traveloka",
+    image: traveloka,
+  },
+  {
+    name: "booking",
+    image: booking,
+  },
+  {
+    name: "airbnb",
+    image: airbnb,
+  },
+  {
+    name: "Opendoor",
+    image: Opendoor,
+  },
 ];
 
 const Packages = [
