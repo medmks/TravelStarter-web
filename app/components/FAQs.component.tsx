@@ -2,10 +2,11 @@ import { useState } from "react";
 import { Questions } from "~/constants";
 import SectionWrapper from "~/Hoc";
 import { style } from "~/utilities/style";
+import {AnimatePresence , motion} from "framer-motion"
 
 const FAQs = () => {
   const [active, setactive] = useState<number>();
-  return (
+  return ( 
     <section className="relative w-full  ">
       <div className="flex md:flex-row flex-col gap-10 ">
         <div className="md:w-1/2 flex flex-col gap-6 mt-5">
@@ -39,11 +40,18 @@ const FAQs = () => {
                 <h1 className="text-black font-outfit font-medium text-2xl leading-tight">
                   {question}
                 </h1>
+                <AnimatePresence>
                 {active === key && (
-                  <p className="text-gray-500  translate-y-2  font-outfitsubtext font-normal text-xl leading-tight">
-                    {answer}
-                  </p>
+                      <motion.div className={`text-gray-500 font-outfitsubtext font-normal text-xl leading-tight`}
+                        initial={{opacity:0,height:0}}
+                        animate={{opacity:1,height:"auto",marginTop:"16px"}}
+                        exit={{opacity:0,height:0,marginTop:0}}
+                      >
+                        {answer}  
+                      </motion.div>
+                  
                 )}
+                </AnimatePresence>
               </button>
             </div>
           ))}
